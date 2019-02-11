@@ -9,7 +9,7 @@ function setup() {
 function draw() {
   background(51);
   angle = slider.value();
-  var length = 130;
+  var length = 100;
   stroke(255);
   translate(750, height);
   branch(length);
@@ -18,7 +18,7 @@ function draw() {
 function branch(length) {
   line(0, 0, 0, -length);
   translate(0, -length);
-  if(length > 15) {
+  if(length > 9) {
     push();
     rotate(angle);
     branch(length *.8);
