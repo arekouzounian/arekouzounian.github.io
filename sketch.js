@@ -9,7 +9,7 @@ function setup() {
 function draw() {
   background(51);
   angle = slider.value();
-  var length = 100;
+  var length = 130;
   stroke(255);
   translate(750, height);
   branch(length);
