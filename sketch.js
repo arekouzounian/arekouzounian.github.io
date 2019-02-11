@@ -18,7 +18,7 @@ function draw() {
 function branch(length) {
   line(0, 0, 0, -length);
   translate(0, -length);
-  if(length > 2) {
+  if(length > 10) {
     push();
     rotate(angle);
     branch(length *.8);
